@@ -48,7 +48,7 @@ public class NaveControl : MonoBehaviour
 
         if (distanceThisFrame > 0)
         {
-            Debug.LogError($"distance this frame: {distanceThisFrame.ToString("f3")}");
+            Debug.LogError($"distance this frame: {distanceThisFrame.ToString("f3")}");   // capycodigo para ver la distancia recorrida entre frames
         }
 
         lastFramePosition = transform.position;
